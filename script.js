@@ -73,7 +73,8 @@ function renderHeroProducts() {
               <small>PayPal active · THB checkout · Thailand shipping</small>
             </div>
             <div class="card-actions">
-              <a class="mini-buy" href="${product.detailLink}">View details</a>
+              <a class="mini-buy" href="${product.shopifyLink}">Buy now</a>
+              <a class="mini-quote" href="${product.detailLink}">Details</a>
               <a class="mini-quote" href="#contact">Wholesale</a>
             </div>
           </div>
