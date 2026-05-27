@@ -13,7 +13,6 @@ const heroProducts = [
     wholesale: "Bulk: ask for 20+ pcs price",
     detailLink: "products/handheld-fan.html",
     shopifyLink: "https://fh8gjq-qg.myshopify.com/products/handheld-fan",
-    sourceLink: "http://detail.1688.com/offer/1014896542574.html",
   },
   {
     name: "Neck Fan",
@@ -29,21 +28,20 @@ const heroProducts = [
     wholesale: "Bulk: ask for 20+ pcs price",
     detailLink: "products/neck-fan.html",
     shopifyLink: "https://fh8gjq-qg.myshopify.com/products/neck-fan",
-    sourceLink: "http://detail.1688.com/offer/719016467091.html",
   },
 ];
 
 const upcomingProducts = [
-  ["Sun Protection Umbrella", "ร่มกันแดด", "Sun Care", "http://detail.1688.com/offer/901109371565.html"],
-  ["Disposable Raincoat", "เสื้อกันฝนใช้ครั้งเดียว", "Rain Traffic", "http://detail.1688.com/offer/814044482787.html"],
-  ["Adult Raincoat", "เสื้อกันฝนผู้ใหญ่", "Rain Season", "http://detail.1688.com/offer/677078039913.html"],
-  ["Clothes Hanger", "ไม้แขวนเสื้อ", "Home", "http://detail.1688.com/offer/941948466748.html"],
-  ["Tissue Paper", "กระดาษทิชชู่", "Daily Use", "http://detail.1688.com/offer/923127995478.html"],
-  ["Pop Mart Storage Box", "กล่องเก็บฟิกเกอร์", "Collector", "http://detail.1688.com/offer/1024752662447.html"],
-  ["Pill Organizer", "กล่องแบ่งยา", "Travel", "http://detail.1688.com/offer/944621585952.html"],
-  ["Lunch Box", "กล่องข้าว", "Kitchen", "http://detail.1688.com/offer/706195884513.html"],
-  ["Mop", "ไม้ถูพื้น", "Home", "http://detail.1688.com/offer/834151608038.html"],
-  ["Shoe Storage Box", "กล่องเก็บรองเท้า", "Storage", "http://detail.1688.com/offer/688734161934.html"],
+  ["Sun Protection Umbrella", "ร่มกันแดด", "Sun Care"],
+  ["Disposable Raincoat", "เสื้อกันฝนใช้ครั้งเดียว", "Rain Traffic"],
+  ["Adult Raincoat", "เสื้อกันฝนผู้ใหญ่", "Rain Season"],
+  ["Clothes Hanger", "ไม้แขวนเสื้อ", "Home"],
+  ["Tissue Paper", "กระดาษทิชชู่", "Daily Use"],
+  ["Pop Mart Storage Box", "กล่องเก็บฟิกเกอร์", "Collector"],
+  ["Pill Organizer", "กล่องแบ่งยา", "Travel"],
+  ["Lunch Box", "กล่องข้าว", "Kitchen"],
+  ["Mop", "ไม้ถูพื้น", "Home"],
+  ["Shoe Storage Box", "กล่องเก็บรองเท้า", "Storage"],
 ];
 
 const grid = document.querySelector("#productGrid");
