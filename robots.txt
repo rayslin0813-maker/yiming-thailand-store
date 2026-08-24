@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yiming-thailand-store.rayslin0813.chatgpt.site/sitemap.xml
