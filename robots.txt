@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yiming-thailand-store.rayslin0813.chatgpt.site/sitemap.xml
+Sitemap: https://rayslin0813-maker.github.io/yiming-thailand-store/sitemap.xml
