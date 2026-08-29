@@ -21,7 +21,6 @@ const liveProducts = [
     imageCount: 5,
     summary: "Portable cooling for students, office desks, travel bags and night-market shoppers.",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/handheld-fan",
-    addLink: "https://fh8gjq-qg.myshopify.com/cart/add?id=48405087715553&quantity=1",
   },
   {
     id: "shopify-neck-fan",
@@ -47,11 +46,37 @@ const liveProducts = [
     imageCount: 7,
     summary: "Hands-free cooling for commuters, riders, outdoor sellers and busy outdoor days.",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/neck-fan",
-    addLink: "https://fh8gjq-qg.myshopify.com/cart/add?id=48405088370913&quantity=1",
   },
 ];
 
-const catalogProducts = [...liveProducts, ...(window.CATALOG_PRODUCTS || [])];
+const shopifyProductLinks = {
+  "shoe-storage-box-new": {
+    price: "฿328",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-storage-box",
+  },
+  "portable-sun-umbrella": {
+    price: "฿415",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-umbrella",
+  },
+  "tissue-paper-new": {
+    price: "฿465+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/tissue-paper",
+  },
+  "lunch-box-new": {
+    price: "฿332.80",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/lunch-box",
+  },
+  "cube-pill-organizer": {
+    price: "฿362",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/pill-organizer",
+  },
+};
+
+const linkedCatalogProducts = (window.CATALOG_PRODUCTS || []).map((product) => ({
+  ...product,
+  ...(shopifyProductLinks[product.id] || {}),
+}));
+const catalogProducts = [...liveProducts, ...linkedCatalogProducts];
 let currentProduct = null;
 let selectedSku = "";
 let inquiryCart = JSON.parse(localStorage.getItem("yimingInquiryCart") || "[]");
@@ -174,7 +199,7 @@ function openProduct(product) {
   if (product.buyLink) {
     buyNow.textContent = "Buy Now";
     buyNow.href = product.buyLink;
-    addButton.textContent = "Add to Cart";
+    addButton.textContent = product.addLink ? "Add to Cart" : "Choose Options";
   } else {
     buyNow.textContent = "Request Quote";
     buyNow.href = "#contact";
@@ -191,6 +216,10 @@ function addCurrentProductToCart() {
   if (!currentProduct) return;
   if (currentProduct.addLink) {
     window.open(currentProduct.addLink, "_blank", "noopener");
+    return;
+  }
+  if (currentProduct.buyLink) {
+    window.open(currentProduct.buyLink, "_blank", "noopener");
     return;
   }
   const item = {
