@@ -130,6 +130,10 @@ const shopifyProductLinks = {
     price: "฿248",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-washing-bag",
   },
+  "laundry-wash-bag": {
+    price: "฿248",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-washing-bag",
+  },
   "bathroom-storage-rack": {
     price: "฿183+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/bathroom-storage-rack",
