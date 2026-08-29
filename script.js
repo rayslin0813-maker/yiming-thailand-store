@@ -50,6 +50,30 @@ const liveProducts = [
 ];
 
 const shopifyProductLinks = {
+  "baseball-cap-organizer": {
+    price: "View price",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/baseball-cap-organizer",
+  },
+  "camping-moisture-mat": {
+    price: "฿599",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-mat",
+  },
+  "foldable-drying-rack": {
+    price: "฿949",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-clothes-drying-rack",
+  },
+  "home-vacuum-cleaner": {
+    price: "฿1,799",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/home-vacuum-cleaner",
+  },
+  "kids-rain-boots": {
+    price: "฿322",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/kids-rain-boots",
+  },
+  "laundry-hamper": {
+    price: "฿205",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/laundry-basket",
+  },
   "shoe-storage-box-new": {
     price: "฿328",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-storage-box",
@@ -69,6 +93,14 @@ const shopifyProductLinks = {
   "cube-pill-organizer": {
     price: "฿362",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/pill-organizer",
+  },
+  "sun-protection-hat": {
+    price: "฿198",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-hat",
+  },
+  "wall-mounted-storage-basket": {
+    price: "฿101.40+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/wall-mounted-storage-basket",
   },
 };
 
