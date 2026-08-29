@@ -50,57 +50,173 @@ const liveProducts = [
 ];
 
 const shopifyProductLinks = {
-  "baseball-cap-organizer": {
-    price: "View price",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/baseball-cap-organizer",
+  "disposable-compartment-meal-box": {
+    price: "฿1,605",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/disposable-compartment-food-container",
   },
-  "camping-moisture-mat": {
-    price: "฿599",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-mat",
+  "ice-cube-mold": {
+    price: "฿202.90+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/ice-cube-tray",
   },
-  "foldable-drying-rack": {
-    price: "฿949",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-clothes-drying-rack",
+  "cooling-arm-sleeves": {
+    price: "฿298",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/cooling-arm-sleeves",
+  },
+  "cutlery-organizer": {
+    price: "฿329",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/cutlery-organizer",
+  },
+  "cosmetic-organizer": {
+    price: "฿369",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/makeup-organizer",
+  },
+  "coffee-cup-rack": {
+    price: "฿499",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/coffee-mug-rack",
+  },
+  "protective-apron": {
+    price: "฿268",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/kitchen-apron",
+  },
+  "wall-mounted-storage-basket": {
+    price: "฿101.40+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/wall-mounted-storage-basket",
   },
   "home-vacuum-cleaner": {
     price: "฿1,799",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/home-vacuum-cleaner",
   },
-  "kids-rain-boots": {
-    price: "฿322",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/kids-rain-boots",
+  "household-juicer": {
+    price: "฿549+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/home-juicer",
   },
-  "laundry-hamper": {
-    price: "฿205",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/laundry-basket",
+  "hair-drying-towel-cap": {
+    price: "฿299",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/quick-dry-hair-towel-cap",
   },
-  "shoe-storage-box-new": {
-    price: "฿328",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-storage-box",
+  "adult-rain-boots": {
+    price: "฿359",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/adult-rain-boots",
   },
-  "portable-sun-umbrella": {
-    price: "฿415",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-umbrella",
+  "foldable-drying-rack": {
+    price: "฿949",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-clothes-drying-rack",
+  },
+  "dry-wet-toiletry-bag": {
+    price: "฿349",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/wet-dry-storage-bag",
+  },
+  clothesline: {
+    price: "฿509",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/clothesline",
+  },
+  "multipurpose-storage-box": {
+    price: "฿291",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/multipurpose-storage-box",
+  },
+  "baseball-cap-organizer": {
+    price: "฿239",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/baseball-cap-organizer",
+  },
+  "dishwashing-cloth": {
+    price: "฿168",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/dish-cloth",
+  },
+  "face-towels": {
+    price: "฿321",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/disposable-face-towels",
+  },
+  "shoe-washing-bag": {
+    price: "฿248",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-washing-bag",
+  },
+  "bathroom-storage-rack": {
+    price: "฿183+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/bathroom-storage-rack",
+  },
+  "cleaning-cloth": {
+    price: "฿229",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/cleaning-cloth",
+  },
+  "retainer-case": {
+    price: "฿305",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/retainer-case",
+  },
+  "toothpick-holder": {
+    price: "฿198",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/toothpick-dispenser",
+  },
+  "glass-squeegee": {
+    price: "฿209+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/glass-squeegee",
   },
   "tissue-paper-new": {
     price: "฿465+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/tissue-paper",
   },
+  "laundry-hamper": {
+    price: "฿205",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/laundry-basket",
+  },
+  "clothes-quilt-storage": {
+    price: "฿198.50+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/clothing-bedding-storage-bag",
+  },
+  "car-vacuum-cleaner": {
+    price: "฿489+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/car-vacuum-cleaner",
+  },
+  "portable-sun-umbrella": {
+    price: "฿415",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-umbrella",
+  },
+  "sun-protection-hat": {
+    price: "฿198+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-hat",
+  },
+  "sun-face-shield": {
+    price: "฿205",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-protection-face-cover",
+  },
+  "moisture-absorber-box": {
+    price: "฿239",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/dehumidifier-box",
+  },
+  "kids-rain-boots": {
+    price: "฿322",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/kids-rain-boots",
+  },
+  "collapsible-camping-bucket": {
+    price: "฿369",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-camping-bucket",
+  },
+  "camping-table-chair": {
+    price: "฿699+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-table-chair-set",
+  },
+  "camping-lantern": {
+    price: "฿368+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-lantern",
+  },
+  "camping-moisture-mat": {
+    price: "฿599",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-mat",
+  },
+  "shoe-storage-box-new": {
+    price: "฿328",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-storage-box",
+  },
   "lunch-box-new": {
     price: "฿332.80",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/lunch-box",
   },
+  "jewelry-organizer": {
+    price: "฿239+",
+    buyLink: "https://fh8gjq-qg.myshopify.com/products/jewelry-organizer",
+  },
   "cube-pill-organizer": {
     price: "฿362",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/pill-organizer",
-  },
-  "sun-protection-hat": {
-    price: "฿198",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-hat",
-  },
-  "wall-mounted-storage-basket": {
-    price: "฿101.40+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/wall-mounted-storage-basket",
   },
 };
 
