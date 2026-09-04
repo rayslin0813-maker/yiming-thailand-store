@@ -1,221 +1,221 @@
 const liveProducts = [
   {
-    id: "shopify-handheld-fan",
-    title: "Handheld Fan",
-    nameCn: "手持风扇",
-    category: "Ready to Buy",
-    categoryKey: "live",
-    price: "THB 199",
-    status: "Ready to buy online",
-    primaryImage: "assets/products/handheld-fan-black.png",
-    gallery: [
+    "id": "shopify-handheld-fan",
+    "title": "Handheld Fan",
+    "nameCn": "手持风扇",
+    "category": "Ready to Buy",
+    "categoryKey": "live",
+    "price": "USD 18.00",
+    "status": "Ready to buy online",
+    "primaryImage": "assets/products/handheld-fan-black.png",
+    "gallery": [
       "assets/products/handheld-fan-white.png",
       "assets/products/handheld-fan-black.png",
       "assets/products/handheld-fan-blue.png",
       "assets/products/handheld-fan-pink.png",
-      "assets/generated/handheld-fan-green-lifestyle-banner.png",
+      "assets/generated/handheld-fan-green-lifestyle-banner.png"
     ],
-    skuCount: 4,
-    detailCount: 1,
-    imageCount: 5,
-    summary: "Portable cooling for students, office desks, travel bags and night-market shoppers.",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/handheld-fan",
+    "skuCount": 4,
+    "detailCount": 1,
+    "imageCount": 5,
+    "summary": "Portable cooling for students, office desks, travel bags and night-market shoppers.",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/handheld-fan"
   },
   {
-    id: "shopify-neck-fan",
-    title: "Neck Fan",
-    nameCn: "挂脖风扇",
-    category: "Ready to Buy",
-    categoryKey: "live",
-    price: "THB 249",
-    status: "Ready to buy online",
-    primaryImage: "assets/products/neck-fan-pink.png",
-    gallery: [
+    "id": "shopify-neck-fan",
+    "title": "Neck Fan",
+    "nameCn": "挂脖风扇",
+    "category": "Ready to Buy",
+    "categoryKey": "live",
+    "price": "USD 7.60",
+    "status": "Ready to buy online",
+    "primaryImage": "assets/products/neck-fan-pink.png",
+    "gallery": [
       "assets/products/neck-fan-white.png",
       "assets/products/neck-fan-pink.png",
       "assets/products/neck-fan-3-speed.png",
       "assets/products/neck-fan-advantages.png",
       "assets/products/neck-fan-colors.png",
       "assets/products/neck-fan-parameters.png",
-      "assets/generated/neck-fan-green-lifestyle-banner.png",
+      "assets/generated/neck-fan-green-lifestyle-banner.png"
     ],
-    skuCount: 5,
-    detailCount: 4,
-    imageCount: 7,
-    summary: "Hands-free cooling for commuters, riders, outdoor sellers and busy outdoor days.",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/neck-fan",
-  },
+    "skuCount": 5,
+    "detailCount": 4,
+    "imageCount": 7,
+    "summary": "Hands-free cooling for commuters, riders, outdoor sellers and busy outdoor days.",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/neck-fan"
+  }
 ];
 
 const shopifyProductLinks = {
   "disposable-compartment-meal-box": {
-    price: "THB 1,605",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/disposable-compartment-food-container",
+    "price": "USD 48.66",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/disposable-compartment-food-container"
   },
   "ice-cube-mold": {
-    price: "THB 202.90+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/ice-cube-tray",
+    "price": "From USD 6.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/ice-cube-tray"
   },
   "cooling-arm-sleeves": {
-    price: "THB 298",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/cooling-arm-sleeves",
+    "price": "USD 9.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/cooling-arm-sleeves"
   },
   "cutlery-organizer": {
-    price: "THB 329",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/cutlery-organizer",
+    "price": "USD 10.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/cutlery-organizer"
   },
   "cosmetic-organizer": {
-    price: "THB 369",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/makeup-organizer",
+    "price": "From USD 11.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/makeup-organizer"
   },
   "coffee-cup-rack": {
-    price: "THB 499",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/coffee-mug-rack",
+    "price": "From USD 15.18",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/coffee-mug-rack"
   },
   "protective-apron": {
-    price: "THB 268",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/kitchen-apron",
+    "price": "USD 8.18",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/kitchen-apron"
   },
   "wall-mounted-storage-basket": {
-    price: "THB 101.40+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/wall-mounted-storage-basket",
+    "price": "From USD 6.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/wall-mounted-storage-basket"
   },
   "home-vacuum-cleaner": {
-    price: "THB 1,799",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/home-vacuum-cleaner",
+    "price": "USD 55.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/home-vacuum-cleaner"
   },
   "household-juicer": {
-    price: "THB 549+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/home-juicer",
+    "price": "From USD 18.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/home-juicer"
   },
   "hair-drying-towel-cap": {
-    price: "THB 299",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/quick-dry-hair-towel-cap",
+    "price": "USD 9.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/quick-dry-hair-towel-cap"
   },
   "adult-rain-boots": {
-    price: "THB 359",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/adult-rain-boots",
+    "price": "USD 11.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/adult-rain-boots"
   },
   "foldable-drying-rack": {
-    price: "THB 949",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-clothes-drying-rack",
+    "price": "From USD 29.76",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/foldable-clothes-drying-rack"
   },
   "dry-wet-toiletry-bag": {
-    price: "THB 349",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/wet-dry-storage-bag",
+    "price": "USD 10.71",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/wet-dry-storage-bag"
   },
-  clothesline: {
-    price: "THB 509",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/clothesline",
+  "clothesline": {
+    "price": "USD 17.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/clothesline"
   },
   "multipurpose-storage-box": {
-    price: "THB 291",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/multipurpose-storage-box",
+    "price": "From USD 9.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/multipurpose-storage-box"
   },
   "baseball-cap-organizer": {
-    price: "THB 239",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/baseball-cap-organizer",
+    "price": "USD 7.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/baseball-cap-organizer"
   },
   "dishwashing-cloth": {
-    price: "THB 168",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/dish-cloth",
+    "price": "USD 5.21",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/dish-cloth"
   },
   "face-towels": {
-    price: "THB 321",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/disposable-face-towels",
+    "price": "From USD 9.82",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/disposable-face-towels"
   },
   "shoe-washing-bag": {
-    price: "THB 248",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-washing-bag",
+    "price": "USD 7.59",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/shoe-washing-bag"
   },
   "bathroom-storage-rack": {
-    price: "THB 183+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/bathroom-storage-rack",
+    "price": "From USD 5.65",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/bathroom-storage-rack"
   },
   "cleaning-cloth": {
-    price: "THB 229",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/cleaning-cloth",
+    "price": "USD 6.99",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/cleaning-cloth"
   },
   "retainer-case": {
-    price: "THB 305",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/retainer-case",
+    "price": "USD 10.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/retainer-case"
   },
   "toothpick-holder": {
-    price: "THB 198",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/toothpick-dispenser",
+    "price": "USD 6.25",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/toothpick-dispenser"
   },
   "glass-squeegee": {
-    price: "THB 209+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/glass-squeegee",
+    "price": "From USD 7.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/glass-squeegee"
   },
   "tissue-paper-new": {
-    price: "THB 465+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/tissue-paper",
+    "price": "From USD 15.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/tissue-paper"
   },
   "laundry-hamper": {
-    price: "THB 205",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/laundry-basket",
+    "price": "USD 6.40",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/laundry-basket"
   },
   "clothes-quilt-storage": {
-    price: "THB 198.50+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/clothing-bedding-storage-bag",
+    "price": "From USD 6.10",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/clothing-bedding-storage-bag"
   },
   "car-vacuum-cleaner": {
-    price: "THB 489+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/car-vacuum-cleaner",
+    "price": "From USD 15.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/car-vacuum-cleaner"
   },
   "portable-sun-umbrella": {
-    price: "THB 415",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-umbrella",
+    "price": "USD 13.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/sun-umbrella"
   },
   "sun-protection-hat": {
-    price: "THB 198+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-hat",
+    "price": "From USD 6.25",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/sun-hat"
   },
   "sun-face-shield": {
-    price: "THB 205",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-protection-face-cover",
+    "price": "From USD 6.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/sun-protection-face-cover"
   },
   "moisture-absorber-box": {
-    price: "THB 239",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/dehumidifier-box",
+    "price": "USD 7.50",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/dehumidifier-box"
   },
   "kids-rain-boots": {
-    price: "THB 322",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/kids-rain-boots",
+    "price": "USD 9.76",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/kids-rain-boots"
   },
   "collapsible-camping-bucket": {
-    price: "THB 369",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-camping-bucket",
+    "price": "From USD 12.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/foldable-camping-bucket"
   },
   "camping-table-chair": {
-    price: "THB 699+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-table-chair-set",
+    "price": "From USD 22.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/camping-table-chair-set"
   },
   "camping-lantern": {
-    price: "THB 368+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-lantern",
+    "price": "From USD 12.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/camping-lantern"
   },
   "camping-moisture-mat": {
-    price: "THB 599",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-mat",
+    "price": "USD 19.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/camping-mat"
   },
   "shoe-storage-box-new": {
-    price: "THB 328",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-storage-box",
+    "price": "USD 10.00",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/shoe-storage-box"
   },
   "lunch-box-new": {
-    price: "THB 332.80",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/lunch-box",
+    "price": "USD 10.20",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/lunch-box"
   },
   "jewelry-organizer": {
-    price: "THB 239+",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/jewelry-organizer",
+    "price": "USD 7.59",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/jewelry-organizer"
   },
   "cube-pill-organizer": {
-    price: "THB 362",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/pill-organizer",
-  },
+    "price": "USD 11.20",
+    "buyLink": "https://fh8gjq-qg.myshopify.com/products/pill-organizer"
+  }
 };
 
 const linkedCatalogProducts = (window.CATALOG_PRODUCTS || []).map((product) => ({
@@ -280,7 +280,7 @@ function createLiveCard(product) {
         <p>${product.summary}</p>
         <div class="price-row">
           <strong>${product.price}</strong>
-          <span>THB checkout ready</span>
+          <span>Price in US dollars</span>
         </div>
         <ul>
           <li>Color options</li>
@@ -324,6 +324,7 @@ function openProduct(product) {
   document.querySelector("#dialogStatus").textContent = customerStatus(product);
   document.querySelector("#dialogTitle").textContent = product.title;
   document.querySelector("#dialogSummary").textContent = product.summary;
+  document.querySelector("#dialogPrice").textContent = product.price || "Request a quote";
   document.querySelector("#dialogCategory").textContent = product.category;
   document.querySelector("#dialogImageCount").textContent = optionSummary(product);
   document.querySelector("#dialogSkuCount").textContent = product.buyLink ? "Secure online checkout" : "Bulk quote available";
@@ -395,6 +396,7 @@ const skuPicker = document.querySelector("#skuPicker");
 
 liveGrid.innerHTML = liveProducts.map(createLiveCard).join("");
 catalogGrid.innerHTML = catalogProducts.map(createCatalogCard).join("");
+document.querySelector("#heroNeckPrice").textContent = liveProducts.find((product) => product.id === "shopify-neck-fan").price;
 document.querySelector("#productCount").textContent = catalogProducts.length;
 document.querySelector("#categoryCount").textContent = new Set(linkedCatalogProducts.map((product) => product.categoryKey)).size;
 updateCartPill();
