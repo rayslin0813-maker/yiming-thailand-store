@@ -3,10 +3,9 @@ const liveProducts = [
     id: "shopify-handheld-fan",
     title: "Handheld Fan",
     nameCn: "手持风扇",
-    thai: "พัดลมมือถือ",
     category: "Ready to Buy",
     categoryKey: "live",
-    price: "฿199",
+    price: "THB 199",
     status: "Ready to buy online",
     primaryImage: "assets/products/handheld-fan-black.png",
     gallery: [
@@ -26,10 +25,9 @@ const liveProducts = [
     id: "shopify-neck-fan",
     title: "Neck Fan",
     nameCn: "挂脖风扇",
-    thai: "พัดลมคล้องคอ",
     category: "Ready to Buy",
     categoryKey: "live",
-    price: "฿249",
+    price: "THB 249",
     status: "Ready to buy online",
     primaryImage: "assets/products/neck-fan-pink.png",
     gallery: [
@@ -51,175 +49,171 @@ const liveProducts = [
 
 const shopifyProductLinks = {
   "disposable-compartment-meal-box": {
-    price: "฿1,605",
+    price: "THB 1,605",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/disposable-compartment-food-container",
   },
   "ice-cube-mold": {
-    price: "฿202.90+",
+    price: "THB 202.90+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/ice-cube-tray",
   },
   "cooling-arm-sleeves": {
-    price: "฿298",
+    price: "THB 298",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/cooling-arm-sleeves",
   },
   "cutlery-organizer": {
-    price: "฿329",
+    price: "THB 329",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/cutlery-organizer",
   },
   "cosmetic-organizer": {
-    price: "฿369",
+    price: "THB 369",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/makeup-organizer",
   },
   "coffee-cup-rack": {
-    price: "฿499",
+    price: "THB 499",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/coffee-mug-rack",
   },
   "protective-apron": {
-    price: "฿268",
+    price: "THB 268",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/kitchen-apron",
   },
   "wall-mounted-storage-basket": {
-    price: "฿101.40+",
+    price: "THB 101.40+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/wall-mounted-storage-basket",
   },
   "home-vacuum-cleaner": {
-    price: "฿1,799",
+    price: "THB 1,799",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/home-vacuum-cleaner",
   },
   "household-juicer": {
-    price: "฿549+",
+    price: "THB 549+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/home-juicer",
   },
   "hair-drying-towel-cap": {
-    price: "฿299",
+    price: "THB 299",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/quick-dry-hair-towel-cap",
   },
   "adult-rain-boots": {
-    price: "฿359",
+    price: "THB 359",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/adult-rain-boots",
   },
   "foldable-drying-rack": {
-    price: "฿949",
+    price: "THB 949",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-clothes-drying-rack",
   },
   "dry-wet-toiletry-bag": {
-    price: "฿349",
+    price: "THB 349",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/wet-dry-storage-bag",
   },
   clothesline: {
-    price: "฿509",
+    price: "THB 509",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/clothesline",
   },
   "multipurpose-storage-box": {
-    price: "฿291",
+    price: "THB 291",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/multipurpose-storage-box",
   },
   "baseball-cap-organizer": {
-    price: "฿239",
+    price: "THB 239",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/baseball-cap-organizer",
   },
   "dishwashing-cloth": {
-    price: "฿168",
+    price: "THB 168",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/dish-cloth",
   },
   "face-towels": {
-    price: "฿321",
+    price: "THB 321",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/disposable-face-towels",
   },
   "shoe-washing-bag": {
-    price: "฿248",
-    buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-washing-bag",
-  },
-  "laundry-wash-bag": {
-    price: "฿248",
+    price: "THB 248",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-washing-bag",
   },
   "bathroom-storage-rack": {
-    price: "฿183+",
+    price: "THB 183+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/bathroom-storage-rack",
   },
   "cleaning-cloth": {
-    price: "฿229",
+    price: "THB 229",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/cleaning-cloth",
   },
   "retainer-case": {
-    price: "฿305",
+    price: "THB 305",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/retainer-case",
   },
   "toothpick-holder": {
-    price: "฿198",
+    price: "THB 198",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/toothpick-dispenser",
   },
   "glass-squeegee": {
-    price: "฿209+",
+    price: "THB 209+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/glass-squeegee",
   },
   "tissue-paper-new": {
-    price: "฿465+",
+    price: "THB 465+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/tissue-paper",
   },
   "laundry-hamper": {
-    price: "฿205",
+    price: "THB 205",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/laundry-basket",
   },
   "clothes-quilt-storage": {
-    price: "฿198.50+",
+    price: "THB 198.50+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/clothing-bedding-storage-bag",
   },
   "car-vacuum-cleaner": {
-    price: "฿489+",
+    price: "THB 489+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/car-vacuum-cleaner",
   },
   "portable-sun-umbrella": {
-    price: "฿415",
+    price: "THB 415",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-umbrella",
   },
   "sun-protection-hat": {
-    price: "฿198+",
+    price: "THB 198+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-hat",
   },
   "sun-face-shield": {
-    price: "฿205",
+    price: "THB 205",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/sun-protection-face-cover",
   },
   "moisture-absorber-box": {
-    price: "฿239",
+    price: "THB 239",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/dehumidifier-box",
   },
   "kids-rain-boots": {
-    price: "฿322",
+    price: "THB 322",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/kids-rain-boots",
   },
   "collapsible-camping-bucket": {
-    price: "฿369",
+    price: "THB 369",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/foldable-camping-bucket",
   },
   "camping-table-chair": {
-    price: "฿699+",
+    price: "THB 699+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-table-chair-set",
   },
   "camping-lantern": {
-    price: "฿368+",
+    price: "THB 368+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-lantern",
   },
   "camping-moisture-mat": {
-    price: "฿599",
+    price: "THB 599",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/camping-mat",
   },
   "shoe-storage-box-new": {
-    price: "฿328",
+    price: "THB 328",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/shoe-storage-box",
   },
   "lunch-box-new": {
-    price: "฿332.80",
+    price: "THB 332.80",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/lunch-box",
   },
   "jewelry-organizer": {
-    price: "฿239+",
+    price: "THB 239+",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/jewelry-organizer",
   },
   "cube-pill-organizer": {
-    price: "฿362",
+    price: "THB 362",
     buyLink: "https://fh8gjq-qg.myshopify.com/products/pill-organizer",
   },
 };
@@ -238,9 +232,7 @@ function customerStatus(product) {
 }
 
 function optionSummary(product) {
-  const skuText = product.skuCount > 1 ? `${product.skuCount} options` : "Option photos";
-  const detailText = product.detailCount > 1 ? `${product.detailCount} detail views` : "Detail views";
-  return `${skuText} · ${detailText}`;
+  return `${product.gallery.length} product photos`;
 }
 
 function fallbackVisual(title, type) {
@@ -262,7 +254,6 @@ function createCatalogCard(product) {
       <div>
         <span class="status">${customerStatus(product)}</span>
         <h3>${product.title}</h3>
-        <strong class="thai-name">${product.thai || product.nameCn}</strong>
         <p>${product.summary}</p>
         <div class="product-data-row">
           <small>${product.category}</small>
@@ -286,7 +277,6 @@ function createLiveCard(product) {
       <div class="live-body">
         <span class="status">${product.status}</span>
         <h3>${product.title}</h3>
-        <strong class="thai-name">${product.thai}</strong>
         <p>${product.summary}</p>
         <div class="price-row">
           <strong>${product.price}</strong>
@@ -316,14 +306,14 @@ function renderSkuPicker(product) {
   picker.innerHTML = images
     .map(
       (src, index) => `
-        <button class="sku-option ${index === 0 ? "active" : ""}" type="button" data-src="${src}" data-label="SKU ${String(index + 1).padStart(2, "0")}">
-          <img src="${src}" alt="${product.title} SKU ${index + 1}" />
+        <button class="sku-option ${index === 0 ? "active" : ""}" type="button" data-src="${src}" data-label="Photo ${String(index + 1).padStart(2, "0")}" aria-label="View ${product.title} photo ${index + 1}">
+          <img src="${src}" alt="${product.title} photo ${index + 1}" />
         </button>
       `,
     )
     .join("");
   selectedSku = images[0] || "";
-  document.querySelector("#selectedSkuLabel").textContent = images.length ? "SKU 01" : "No image";
+  document.querySelector("#selectedSkuLabel").textContent = images.length ? "Photo 01" : "No image";
 }
 
 function openProduct(product) {
@@ -333,7 +323,6 @@ function openProduct(product) {
   selectedSku = images[0] || "";
   document.querySelector("#dialogStatus").textContent = customerStatus(product);
   document.querySelector("#dialogTitle").textContent = product.title;
-  document.querySelector("#dialogThai").textContent = product.thai || product.nameCn;
   document.querySelector("#dialogSummary").textContent = product.summary;
   document.querySelector("#dialogCategory").textContent = product.category;
   document.querySelector("#dialogImageCount").textContent = optionSummary(product);
@@ -349,7 +338,7 @@ function openProduct(product) {
   const buyNow = document.querySelector("#buyNowButton");
   const addButton = document.querySelector("#addToCartButton");
   if (product.buyLink) {
-    buyNow.textContent = "Buy Now";
+    buyNow.textContent = "Buy on Shopify";
     buyNow.href = product.buyLink;
     addButton.textContent = product.addLink ? "Add to Cart" : "Choose Options";
   } else {
@@ -388,7 +377,7 @@ function addCurrentProductToCart() {
 
 function sendInquiryCart() {
   const lines = inquiryCart.length
-    ? inquiryCart.map((item, index) => `${index + 1}. ${item.title} / ${item.chinese || ""} / Selected option: ${item.skuImage || "not selected"}`)
+    ? inquiryCart.map((item, index) => `${index + 1}. ${item.title} / Reference photo: ${item.skuImage || "not selected"}`)
     : ["Please send product price and delivery information."];
   const body = encodeURIComponent(`Hello, I would like to ask about these products:\n\n${lines.join("\n")}\n\nQuantity:\nDelivery city:\nName:\nPhone / WhatsApp:`);
   window.location.href = `mailto:lin@fszzlys.com?subject=Yiming Thailand product quote&body=${body}`;
@@ -406,6 +395,8 @@ const skuPicker = document.querySelector("#skuPicker");
 
 liveGrid.innerHTML = liveProducts.map(createLiveCard).join("");
 catalogGrid.innerHTML = catalogProducts.map(createCatalogCard).join("");
+document.querySelector("#productCount").textContent = catalogProducts.length;
+document.querySelector("#categoryCount").textContent = new Set(linkedCatalogProducts.map((product) => product.categoryKey)).size;
 updateCartPill();
 
 filters.forEach((button) => {
@@ -414,7 +405,7 @@ filters.forEach((button) => {
     button.classList.add("active");
     const filter = button.dataset.filter;
     document.querySelectorAll(".catalog-card").forEach((card) => {
-      const match = filter === "all" || card.dataset.type === filter;
+      const match = filter === "all" || card.dataset.type === filter || (filter === "live" && catalogProducts.find((product) => product.id === card.dataset.id)?.buyLink);
       card.hidden = !match;
     });
   });

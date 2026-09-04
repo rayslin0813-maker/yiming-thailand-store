@@ -41,7 +41,7 @@
       }
     </script>
     <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="styles.css?v=20260829-11" />
+    <link rel="stylesheet" href="styles.css?v=20260904-en-1" />
   </head>
   <body>
     <header class="site-header">
@@ -66,31 +66,31 @@
     <main id="top">
       <section class="hero">
         <div class="hero-media">
-          <img src="assets/thai-weather-hero.png" alt="Thailand hot weather lifestyle products" />
+          <img src="assets/generated/handheld-fan-green-lifestyle-banner.png" alt="Yiming handheld fans in white, pink, black and blue" />
         </div>
         <div class="hero-copy">
           <p class="eyebrow">Thailand everyday essentials</p>
           <h1>Useful daily goods for Thailand living.</h1>
-          <p class="thai-line">สินค้าคลายร้อน กันฝน จัดเก็บ ทำความสะอาด และของใช้ประจำวัน</p>
+          <p class="intro-line">Stay cool. Stay organized. Make every day easier.</p>
           <p>
             Shop cooling fans, rain gear, storage, cleaning, kitchen, camping and personal care essentials selected for hot weather and everyday use.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#catalog">Shop All Products</a>
-            <a class="button dark" href="https://fh8gjq-qg.myshopify.com/products/neck-fan">Buy Neck Fan ฿249</a>
+            <a class="button dark" href="https://fh8gjq-qg.myshopify.com/products/neck-fan">Buy Neck Fan THB 249</a>
           </div>
         </div>
         <aside class="hero-panel" aria-label="Store highlights">
           <strong>Hot weather essentials</strong>
           <span>Cooling, rain and home products in one place</span>
-          <span>SKU photos for easy option selection</span>
+          <span>Product photos and details before you buy</span>
           <span>Retail checkout and wholesale inquiry supported</span>
         </aside>
       </section>
 
       <section class="catalog-summary" aria-label="Catalog summary">
-        <strong>45</strong><span>product choices</span>
-        <strong>8</strong><span>daily categories</span>
+        <strong id="productCount">44</strong><span>product choices</span>
+        <strong id="categoryCount">9</strong><span>daily categories</span>
         <strong>THB</strong><span>local-friendly pricing</span>
         <strong>Fast</strong><span>retail or bulk inquiry</span>
       </section>
@@ -127,7 +127,6 @@
           <div class="dialog-copy">
             <span class="status" id="dialogStatus"></span>
             <h2 id="dialogTitle"></h2>
-            <strong class="thai-name" id="dialogThai"></strong>
             <p id="dialogSummary"></p>
             <div class="dialog-stats">
               <span id="dialogCategory"></span>
@@ -135,8 +134,8 @@
               <span id="dialogSkuCount"></span>
             </div>
             <div class="selected-sku">
-              <span>Selected option</span>
-              <strong id="selectedSkuLabel">SKU 01</strong>
+              <span>Selected photo</span>
+              <strong id="selectedSkuLabel">Photo 01</strong>
             </div>
             <div class="dialog-actions">
               <button class="button primary" id="addToCartButton" type="button">Add to Inquiry Cart</button>
@@ -157,12 +156,12 @@
           <div>
             <p class="eyebrow">Payment and delivery</p>
             <h2>Easy checkout for single items, quick quotes for larger orders.</h2>
-            <p class="thai-line">ชำระเงินเป็นเงินบาท จัดส่งในประเทศไทย และติดต่อสอบถามสำหรับออเดอร์จำนวนมาก</p>
+            <p class="intro-line">Pay in Thai baht. Available delivery destinations and shipping costs are shown at checkout. Contact us for bulk orders.</p>
           </div>
           <div class="shipping-points">
             <span>Currency: THB</span>
-            <span>Standard shipping: ฿49</span>
-            <span>Free shipping: over ฿499</span>
+            <span>Shipping rates calculated at checkout</span>
+            <span>Confirm delivery availability before payment</span>
             <span>Secure online checkout for ready products</span>
             <span>Bulk order quotes available before payment</span>
           </div>
@@ -252,7 +251,7 @@
       <section class="section scene-section" id="scenes">
         <div class="section-head compact">
           <p class="eyebrow">Daily needs</p>
-          <h2>See the product in the moments customers actually need it.</h2>
+          <h2>Made for the moments in your day.</h2>
         </div>
         <div class="scene-grid">
           <article class="scene-card scene-hot">
@@ -308,7 +307,7 @@
           </article>
           <article class="scene-card scene-kitchen">
             <div class="scene-visual">
-              <img class="scene-product hero-product" src="assets/catalog/household-juicer/sku-01.png" alt="Juicer for fresh drinks" />
+              <img class="scene-product hero-product" src="assets/catalog/household-juicer/sku-01.png" alt="Personal blender for fruit drinks" />
               <img class="scene-product side-product" src="assets/catalog/ice-cube-mold/sku-01.jpg" alt="Ice cube mold" />
               <img class="scene-product mini-product" src="assets/catalog/lunch-box-new/sku-01.png" alt="Lunch box" />
             </div>
@@ -317,7 +316,7 @@
               <h3>Kitchen and drinks</h3>
               <p>Easy home drinks, lunch prep and small kitchen items for family use, office lunch and shop resale.</p>
               <div class="scene-actions">
-                <button class="scene-product-button" type="button" data-product="household-juicer">Juicer</button>
+                <button class="scene-product-button" type="button" data-product="household-juicer">Personal Blender</button>
                 <button class="scene-product-button" type="button" data-product="ice-cube-mold">Ice Mold</button>
                 <button class="scene-product-button" type="button" data-product="lunch-box-new">Lunch Box</button>
               </div>
@@ -332,10 +331,10 @@
             <div class="scene-copy">
               <span>05</span>
               <h3>Weekend outdoor</h3>
-              <p>Camping and market-night essentials that help customers imagine weekends, travel and family gatherings.</p>
+              <p>Set up a comfortable spot for picnics, evenings outdoors and weekends with family.</p>
               <div class="scene-actions">
                 <button class="scene-product-button" type="button" data-product="camping-lantern">Lantern</button>
-                <button class="scene-product-button" type="button" data-product="camping-table-chair">Table Set</button>
+                <button class="scene-product-button" type="button" data-product="camping-table-chair">Tables & Chairs</button>
                 <button class="scene-product-button" type="button" data-product="camping-moisture-mat">Camping Mat</button>
               </div>
             </div>
@@ -450,7 +449,7 @@
       <span>Cooling, rain, storage, cleaning, kitchen, camping and everyday essentials for Thailand.</span>
     </footer>
 
-    <script src="assets/catalog-data.js?v=20260829-11"></script>
-    <script src="script.js?v=20260829-11"></script>
+    <script src="assets/catalog-data.js?v=20260904-en-1"></script>
+    <script src="script.js?v=20260904-en-1"></script>
   </body>
 </html>

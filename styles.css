@@ -246,12 +246,11 @@ h3 {
   font-size: 19px;
 }
 
-.thai-line,
-.thai-name {
+.intro-line {
   font-weight: 850;
 }
 
-.hero .thai-line {
+.hero .intro-line {
   color: #fff;
   font-size: clamp(19px, 2.4vw, 24px);
 }
